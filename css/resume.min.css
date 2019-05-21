@@ -10,13 +10,11 @@ body {
     color: white;
 }
 
-.container {
-    text-align: center;
-}
-
+.container,
 .centered {
     text-align: center;
 }
+
 
 .introp {
     float: left;
@@ -114,12 +112,6 @@ h5,
 
 }
 
-@media screen and (max-width: 360px) {
-    #education {
-        padding-bottom: 100px
-    }
-}
-
 .education {
     margin-bottom: 100px;
     display: inline-block;
@@ -163,7 +155,7 @@ h5,
 @media screen and (max-width: 960px) {
     #education {
         margin-top: 600px;
-        margin-bottom: 450px
+        margin-bottom: 200px
     }
 }
 
@@ -197,7 +189,7 @@ h5,
 
 .working {
     float: left;
-    width: 30%;
+    width: 40%;
     padding-bottom: 50px
 }
 
@@ -225,6 +217,20 @@ h5,
 #skills {
     margin-bottom: 100px
 }
+
+@media screen and (max-width: 960px) {
+
+    #skills,
+    #experience,
+    #about,
+    #projects,
+    #about {
+        margin-bottom: 200px;
+        margin-left: 20px;
+        margin-top: 200px
+    }
+}
+
 
 .parallax-skills {
     background-image: url(parallax-images/education-min.jpg);
